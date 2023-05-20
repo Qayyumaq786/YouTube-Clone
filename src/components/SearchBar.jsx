@@ -23,10 +23,10 @@ const SearchBar = () => {
       onSubmit={onhandleSubmit}
       sx={{
         borderRadius: 3,
-        border: '2px solid red',
+        border: '1px solid red',
         pl: 2,  //padding left
         boxShadow: 'none',
-        mr: { sm: 5 ,lg:80 }, //margin right for small devises
+        mr: { sm: 5 }, //margin right for small devises
       }}
     >
       <input
